@@ -10,8 +10,7 @@ Pod::Spec.new do |s|
   # s.screenshots      = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
   s.author           = { "Yifan" => "yifan.chen@handscape.info" }
-  s.source           = { :git => "https://github.com/HandScapeIncDrive/HSFLballPod.git", :tag => s.version }
-  # s.social_media_url = 'https://twitter.com/NAME'
+  s.source           = { :git => "/Users/yifan/Downloads/HandScape/Software/HSFLballPod/FloatingBall", :tag => s.version }
 
   s.platform     = :ios
   # s.ios.deployment_target = '5.0'
@@ -24,6 +23,6 @@ Pod::Spec.new do |s|
   # s.ios.exclude_files = 'Classes/osx'
   # s.osx.exclude_files = 'Classes/ios'
   # s.public_header_files = 'Classes/**/*.h'
-  s.vendored_frameworks = 'HandScapeSDK.framework'
+  s.frameworks = 'HandScapeSDK.framework'
 
 end
